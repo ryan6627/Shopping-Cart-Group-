@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset = "UTF-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+            <link type = "text/css" rel = "stylesheet" href = "stylesheet.css">
+            <script src = "https://code.jquery.com/jquery-3.2.1.js"></script>      
+            <script src = "script.js"></script>
+            
+            <title>Shopping Cart</title>
+        </head>
+        
+        
+        <body>
+            <h1 style = "text-align: center;">Prototype Shopping Cart</h1>
+            <hr/>
+            <div>
+                <ul>
+                    <li> <!--****** GPU *******-->
+                        <img src = "http://www.maxexpansion.com/sites/default/files/styles/uc_product_full/public/field/product/titan_x.png?itok=Dc49EBew" alt = "graphics" width = 100px height = 100px>
+                        <p style = "display: inline-block">GPU $350</p>
+                        
+                        <!--ADDING-->
+                        <a id = "graphicsCard" href = "#" class = "add-to-cart" data-name = "GPU" data-price = "350">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING-->
+                        <a id = "graphicsCard" href = "#" class = "remove-from-cart" data-name = "GPU" data-price = "350">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "graphicsCard" href = "#" class = "remove-completely-from-cart" data-name = "GPU" data-price = "350">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li> <!--*******CPU*******-->
+                        
+                        <img src = "https://www.amd.com/system/files/10788-ryzen-chip-left-angle-960x548.png" alt = "graphics" width = 100px height = 100px>
+                        <p style = "display: inline-block">CPU $200</p>
+                        
+                        <!--ADDING-->
+                        <a id = "centralProcessing" href = "#" class = "add-to-cart" data-name = "CPU" data-price = "200">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING--> 
+                        <a id = "centralProcessing" href = "#" class = "remove-from-cart" data-name = "CPU" data-price = "200">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "centralProcessing" href = "#" class = "remove-completely-from-cart" data-name = "CPU" data-price = "200">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li> <!--*********CASE**********-->
+                        
+                        <img src = "https://cdn.shopify.com/s/files/1/0232/4705/products/Enthoo_Luxe_WT.png?v=1405621804" alt = "case" width = 100px height = 100px>
+                        <p style = "display: inline">Case $175</p>
+                        
+                        <!--ADDING-->
+                        <a id = "casing" href = "#" class = "add-to-cart" data-name = "Case" data-price = "175">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING-->
+                        <a id = "casing" href = "#" class = "remove-from-cart" data-name = "Case" data-price = "175">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "casing" href = "#" class = "remove-completely-from-cart" data-name = "Case" data-price = "175">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    </li>
+                    
+                    
+                    <li> <!--********MOTHERBOARD*********-->
+                        
+                        <img src = "https://3.bp.blogspot.com/-Z0mwY2OHl8A/VztW56MWg2I/AAAAAAAAADo/ayAdNNB0A1I00nTXGHtJHXTkKx8iOfhrgCLcB/s1600/yjTuDA3ZTBvruWXQXBqteS-650-80.png" alt = "graphics" width = 100px height = 100px>
+                        <p style = "display: inline">Motherboard $150</p>
+                        
+                        <!--ADDING-->
+                        <a id = "motherboard" href = "#" class = "add-to-cart" data-name = "Motherboard" data-price = "150">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING-->
+                        <a id = "motherboard" href = "#" class = "remove-from-cart" data-name = "Motherboard" data-price = "150">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "motherboard" href = "#" class = "remove-completely-from-cart" data-name = "Motherboard" data-price = "150">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    </li>
+                    
+                    
+                    <li> <!--**********RAM**********-->
+                        
+                        <img src = "http://www.corsair.com/~/media/corsair/product%20photos/dram/vengeance-lpx/white/large/veng_lpx_wht_03.png" alt = "ram" width = 100px height = 100px>
+                        <p style = "display: inline">RAM $50</p>
+                        
+                        <!--ADDING-->
+                        <a id = "ram" href = "#" class = "add-to-cart" data-name = "RAM" data-price = "50">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING-->
+                        <a id = "ram" href = "#" class = "remove-from-cart" data-name = "RAM" data-price = "50">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "ram" href = "#" class = "remove-completely-from-cart" data-name = "RAM" data-price = "50">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    
+                    </li>
+                    
+                    <li> <!--******CASE FANS******-->
+                        
+                        <img src = "http://www.corsair.com/~/media/corsair/product%20photos/fans/sp120-led/white/large/fan_sp120_led_unlit_front_w.png" alt = "case fans" width = 100px height = 100px>
+                        <p style = "display: inline">Fans $10</p>
+                        
+                        <!--ADDING-->
+                        <a id = "Fans" href = "#" class = "add-to-cart" data-name = "Fans" data-price = "10">
+                            <button type = "button" class = "btn btn-success">Add</button>
+                        </a>
+                        
+                        <!--REMOVING-->
+                        <a id = "Fans" href = "#" class = "remove-from-cart" data-name = "Fans" data-price = "10">
+                            <button type = "button" class = "btn btn-primary">Remove</button>
+                        </a>
+                        
+                        <!--REMOVE COMPLETELY-->
+                        <a id = "Fans" href = "#" class = "remove-completely-from-cart" data-name = "Fans" data-price = "10">
+                            <button type = "button" class = "btn btn-danger">Remove All</button>
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+            <hr/>
+            <div>
+                <ul id = "show-cart">
+                    
+                </ul>
+                <ul>
+                    Total Cart: $
+                    <span id = "total-cart"></span>
+                </ul>
+                <ul>
+                    Total w. Tax: $
+                    <span id = "total-tax"></span>
+                </ul>
+            </div>
+           
+            <p id = "mee"></p>
+            <button id = "orange" type = "button" class = "btn btn-warning" onclick = "credit()">Checkout</button>
+        </body>
+    </html>
+
