@@ -1,2 +1,3 @@
 # Shopping-Cart-Group-
-Ryan's shopping cart 
+Group Shopping Cart
+
